@@ -11,6 +11,6 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 # print(df.groupby(['FullName'])['SubTotal'].aggregate('sum'))
 # df.groupby(['FullName'])['SubTotal'].aggregate('sum').to_csv('grouped_AdventureWorks')
 
-budget = pd.read_excel('Budget.xlsx')
-budget = budget = budget.tail(-2)
+budget = pd.read_excel('https://github.com/Alex-Bujorianu/data_viz/raw/main/Budget.xlsx')
+budget = budget.tail(-2)
 print(budget)
